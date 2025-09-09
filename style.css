@@ -1,0 +1,45 @@
+body {
+  background-color: #4D4D4D;
+  color: #fff;
+  font-family: 'Micro 5', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  background: #4D4D4D;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #F5F5F0;
+  color: #333;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Micro 5', cursive;
+  text-transform: uppercase;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
